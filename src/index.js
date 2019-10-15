@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import './index.css'
 import Filelist from './Components/FileList';
 
 const App = () => {
