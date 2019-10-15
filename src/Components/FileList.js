@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import FileListItem from './FileListItem';
+
 const FileList = ({ files }) => (
   <table className="file-list">
     <tbody>
       {files.map(file => (
-        <tr className="file-list-item" key={file.id}>
-          <td className="file-name">{file.name}</td>
-        </tr>
+        <FileListItem key={file.id} file={file} />
       ))}
     </tbody>
   </table>
