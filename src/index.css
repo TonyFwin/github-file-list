@@ -16,3 +16,17 @@
   padding: 5px;
   max-width: 180px;
 }
+
+.file-row{
+  display: flex; 
+  align-items: center;
+}
+
+.file-icon {
+  width: 17px;
+  padding-left: 4px;
+}
+
+.file-icon .fa-folder {
+  color: #508FCA;
+}

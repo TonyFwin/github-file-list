@@ -6,7 +6,13 @@ import FileIcon from './FileIcon';
 const FileName = ({ file }) => {
   const { name } = file;
   return (
-    <div><FileIcon file={file}/> {name}</div>
+    <>
+      <div className="file-row">
+        <FileIcon file={file}/> 
+        <div className="file-name">{name}</div>
+      </div>
+      
+    </>
     )
 }
 
