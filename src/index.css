@@ -12,6 +12,12 @@
   border-top: 1px solid #ccc;
 }
 
+.file-name-wrapper {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
 .file-name {
   padding: 5px;
   max-width: 180px;
@@ -20,6 +26,8 @@
 .file-row{
   display: flex; 
   align-items: center;
+  min-width: 135px;
+  max-width: 250px;
 }
 
 .file-icon {
@@ -29,4 +37,10 @@
 
 .file-icon .fa-folder {
   color: #508FCA;
+}
+
+.commit-message {
+  max-width: 442px;
+  padding-left: 10px;
+  overflow: hidden;
 }
